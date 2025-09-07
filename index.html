@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Badang</title>
-  <meta name="description" content="Badang 공식 홈페이지" />
+  <meta name="description" content="주식회사 바당 공식 홈페이지" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     html { scroll-behavior: smooth; }
@@ -25,11 +25,12 @@
     .section-title { letter-spacing: -0.02em; }
     .section { scroll-margin-top: 90px; } /* 앵커 이동 시 상단 메뉴 높이 보정 */
     footer a { text-decoration: none; }
+    .list-steps li::marker { font-weight: 700; }
   </style>
 </head>
 <body>
 
-<!-- 상단 네비게이션 -->
+<!-- 상단 네비게이션 (요청하신 4개 섹션 유지) -->
 <nav class="navbar navbar-expand-md bg-white border-bottom">
   <div class="container">
     <a class="navbar-brand fw-bold" href="#">Badang</a>
@@ -54,12 +55,136 @@
     <p class="lead mt-3 text-secondary">믿음에 반드시 보답하겠습니다.</p>
     <div class="mt-4">
       <a href="#contact" class="btn btn-primary btn-lg me-2">상담하기</a>
-      <a href="#staff" class="btn btn-outline-secondary btn-lg">직원정보</a>
+      <a href="#about" class="btn btn-outline-secondary btn-lg">회사 소개</a>
     </div>
   </div>
 </header>
 
-<!-- 직원정보 -->
+<!-- 회사 소개 -->
+<section id="about" class="section py-5">
+  <div class="container">
+    <h2 class="section-title h1 mb-4">회사 소개</h2>
+    <div class="row g-4">
+      <div class="col-lg-10">
+        <p class="mb-3">
+          저희 사명(社命)인 <strong>바당</strong>은 강원도에서는 ‘바닥’, 제주도에서는 ‘바다’라는 뜻을 가진 단어입니다.
+          저희는 그 뜻 그대로 가장 낮은 바닥에서부터 근본적 문제점을 인식한 후 종합적 해결책 제시를 목적으로 설립된 전문가 중심의 컨설팅 그룹입니다.
+          더불어 ‘바다’라는 의미에 부합하게 문제 해결에 필요한 모든 분야의 전문가들이 최선을 다해 협업합니다.
+        </p>
+        <p class="mb-3">
+          기존의 컨설팅 회사가 방향제시·구조조정과 같은 조력자 역할에 중점을 두는 것에 반해
+          <strong>바당</strong>은 의뢰인과 하나가 되어 목표를 달성할 수 있도록 <strong>성과 중심</strong>의 활동을 지향합니다.
+          바라건대 많은 관심과 성원을 부탁드립니다.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 구성원 (설명 + 그룹 안내) -->
+<section id="members" class="section py-5 bg-light">
+  <div class="container">
+    <h2 class="section-title h1 mb-4">구성원</h2>
+    <div class="row g-4">
+      <div class="col-lg-10">
+        <div class="alert alert-light border rounded-4">
+          저희 바당은 꼭 필요한 경우가 아니면 대표이사 외 상근 근무자를 두지 않습니다.
+          이러한 시스템은 고정 인력 유지에 드는 비용을 절감하여 의뢰인의 부담을 줄이고,
+          전문 인력들의 활동 제한을 최소화하려는 이중의 목적에 기인합니다.
+          의뢰받은 분야·목표·예산 규모에 따라 <strong>최적의 인력 조합</strong>을 구성·활동하고 있습니다.
+          투입된 전문가들의 <strong>비밀유지</strong>는 저희 바당이 전적으로 보장합니다.
+        </div>
+
+        <p class="mb-3">
+          투입 가능한 인력 범위를 구체적으로 밝힐 수 없으나, 활동 중인 여느 컨설팅 회사에 견주어 손색없는 인력을 확보하고 있다는 점을 당당히 밝힙니다.
+        </p>
+
+        <ul class="list-group">
+          <li class="list-group-item">
+            <strong>[그룹 1. 정부 및 공공기관 출신]</strong> : 최소 10년 이상의 근무 경력자들
+          </li>
+          <li class="list-group-item">
+            <strong>[그룹 2. 입법기관 출신]</strong> : 최소 10년 이상 보좌관, 당직자 근무 경력자들
+          </li>
+          <li class="list-group-item">
+            <strong>[그룹 3. 법률가]</strong> : 각 분야 전문 경력 15년 이상 활동 경력을 가진 법조인들
+          </li>
+          <li class="list-group-item">
+            <strong>[그룹 4. 언론인]</strong> : 일간지, 전문지 경력 15년 이상의 기자 경력자들
+          </li>
+          <li class="list-group-item">
+            <strong>[그룹 5. 회계사]</strong> : 컨설팅 경력 10년 이상의 회계사들
+          </li>
+          <li class="list-group-item">
+            <strong>[그룹 6. 기타]</strong> : 각 분야 박사 학위 소지자, 공인중개사, 세무사, 관세사 등
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 업무 -->
+<section id="services" class="section py-5">
+  <div class="container">
+    <h2 class="section-title h1 mb-4">업무</h2>
+    <div class="row g-4">
+      <div class="col-lg-10">
+        <ol class="list-group list-group-numbered">
+          <li class="list-group-item">각 산업 분야 동향 분석</li>
+          <li class="list-group-item">입법 컨설팅</li>
+          <li class="list-group-item">정책 컨설팅</li>
+          <li class="list-group-item">M&amp;A 컨설팅</li>
+          <li class="list-group-item">세무 컨설팅</li>
+          <li class="list-group-item">기타 : 자체 수행 가능하다고 판단되는 일체의 업무</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 수행실적 -->
+<section id="trackrecord" class="section py-5 bg-light">
+  <div class="container">
+    <h2 class="section-title h1 mb-4">수행실적</h2>
+    <div class="row g-4">
+      <div class="col-lg-10">
+        <ul class="list-group">
+          <li class="list-group-item">헬스케어 관련 00사의 현행 사업 구조 적법성 분석</li>
+          <li class="list-group-item">00협회 소속 회원들의 영리활동 적법성 담보를 위한 프로세스 분석</li>
+          <li class="list-group-item">인터넷 언론사의 취재방향 및 수익활동 다양성에 관한 분석</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 의뢰 및 진행절차 -->
+<section id="process" class="section py-5">
+  <div class="container">
+    <h2 class="section-title h1 mb-4">의뢰 및 진행절차</h2>
+    <div class="row g-4">
+      <div class="col-lg-10">
+        <ol class="list-group list-group-numbered list-steps">
+          <li class="list-group-item">
+            <strong>1 단계 :</strong> 이메일을 통한 수행 가능 여부 타진(무료)
+          </li>
+          <li class="list-group-item">
+            <strong>2 단계 :</strong> 수행 가능 판단에 따른 구체적 목표 달성 가능성 판단(실비)
+          </li>
+          <li class="list-group-item">
+            <strong>3 단계 :</strong> 계약 후 목표를 위한 팀 구성, 구체적 활동 및 보고(계약금·활동비)
+          </li>
+          <li class="list-group-item">
+            <strong>4 단계 :</strong> 목표 달성 후 계약에 따른 정산(성공보수)
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 직원정보 (요청 레이아웃 유지) -->
 <section id="staff" class="section py-5">
   <div class="container">
     <h2 class="section-title h1 mb-4">직원정보</h2>
@@ -70,8 +195,8 @@
           <img class="card-img-top" src="assets/staff_01.jpg" alt="이경권" style="object-fit:cover;height:220px;">
           <div class="card-body">
             <h3 class="h5 mb-1">이경권</h3>
-            <p class="text-secondary mb-2">직함/역할</p>
-            <p class="small text-body-secondary mb-0">주요 경력/자격.</p>
+            <p class="text-secondary mb-2">직함/역할을 입력하세요</p>
+            <p class="small text-body-secondary mb-0">주요 경력/자격 요약을 입력하세요.</p>
           </div>
         </div>
       </div>
@@ -80,7 +205,7 @@
   </div>
 </section>
 
-<!-- 고객후기 -->
+<!-- 고객후기 (별 유지, 문구 변경) -->
 <section id="reviews" class="section py-5 bg-light">
   <div class="container">
     <h2 class="section-title h1 mb-4">고객후기</h2>
@@ -117,6 +242,9 @@
           <li class="list-group-item"><strong>카카오톡</strong> : <a href="https://pf.kakao.com/_yourid" target="_blank">채널 바로가기</a></li>
           <li class="list-group-item"><strong>온라인 폼</strong> : 아래 폼으로 접수하세요.</li>
         </ul>
+        <div class="mt-3">
+          <a class="btn btn-outline-secondary btn-sm" href="#process">진행 절차 보기</a>
+        </div>
       </div>
       <div class="col-lg-7">
         <!-- 폼: Formspree 등 외부 서비스의 action으로 교체 -->
